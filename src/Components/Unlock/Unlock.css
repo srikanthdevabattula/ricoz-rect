@@ -1,0 +1,129 @@
+.unlock{
+    padding: 90px;
+}
+
+.u-top{
+    display: flex;
+    align-items: center;
+    color: #101010;
+}
+.u-top .t-right p{
+    color: #101010;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.u-top button{
+    height: 50px;
+    margin-left: auto;
+    margin-right: 20px;
+    
+    border: 0px;
+    border-radius: 50px;
+    gap: 10px;
+    background: #0030FF;
+    /* font-family: Poppins; */
+    font-size: 15px;
+    font-weight: 500;
+    width: 157px;
+height: 40px;
+color:white;
+padding:13px, 30px, 13px, 30px;
+}
+
+/* //unlock-down-cards */
+.u-down{
+    display: flex;
+    justify-content: space-around;
+}
+.ulcard{
+    background: #81818B1A;
+    border: 0px;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 379.55px;
+    height: 500.66px;
+
+
+    
+    
+    
+}
+.ulcard img{
+   
+   width: 379.55px;
+   height: 186.73px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.ulcard h3{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #101010;
+    padding-top: 27px;
+    padding-left: 20px;
+    width: 80%;
+}
+.ulcard h1{
+   
+font-size: 28px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 20px;
+margin-top: 10px;
+
+}
+.ulcard p{
+    width: 80%;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.ulcard a{
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width: 780px){
+
+    .u-top .t-right h1{
+        font-size: 30px;
+    }
+    .u-top .t-right p{
+        color: #080808;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .u-top button{
+        height: 50px;
+        
+        margin-left: auto;
+        margin-right: 20px;
+        
+        border: 0px;
+        border-radius: 50px;
+        gap: 10px;
+        background: #0030FF;
+        /* font-family: Poppins; */
+        font-size: 11px;
+        font-weight: 500;
+        width: 257px;
+    height: 40px;
+    color:white;
+    padding:13px, 30px, 13px, 30px;
+    }
+}

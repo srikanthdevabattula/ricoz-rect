@@ -1,0 +1,193 @@
+.features{
+    width: 100%;
+    /* height: 80vh; */
+    padding: 120px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+/* height: 496px; */
+gap: 50px;
+
+padding-left: 0rem;
+}
+.f-top{
+   /* width: 1300px; */
+    display: flex;
+    align-items: center;
+    
+}
+.f-top img{
+    height: 30px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+.f-top h2{
+    /* width: 747px; */
+    height: 47px;
+font-weight: 500;
+}
+.imgdiv{
+    
+    margin-left: auto;
+}
+/* .features .swiper{
+
+        overflow: visible!important;
+    
+} */
+.portfolio-slider{
+    /* width: 1231px; */
+height: 399px;
+padding: 0.19px, 0px, 0.19px, 0px;
+}
+.swiper-slide{
+    width: 394.34px;
+height: 398.61px;
+top: 0.19px;
+border-radius: 37.48px;
+background: #17245B;
+color: white;
+
+}
+.swiper-slide div img{
+    width: Hug (71.95px);
+height: Hug (71.95px);
+padding-top: 52.47px;
+padding-left: 39.98px;
+
+}
+.swiper-slide div h4{
+font-size: 28px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 39.98px;
+width: 342px;
+height: 35px;
+top: 150.66px;
+left: 39.98px;
+
+}
+.swiper-slide div p{
+    width: 313.59px;
+height: 170px;
+top: 193.88px;
+padding-left: 39.98px;
+font-size: 22px;
+font-weight: 300;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+@media screen and (max-width: 1280px){
+
+    .swiper-slide div h4{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 19.98px;
+        width: 342px;
+        height: 35px;
+        top: 150.66px;
+        left: 39.98px;
+        
+        }
+        .swiper-slide div p{
+            width: 253.59px;
+        height: 170px;
+        top: 193.88px;
+        padding-left: 19.98px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+        
+        }
+}
+
+@media screen and (max-width:880px){
+    .features{
+        width: 100vw;
+        /* height: 80vh; */
+        padding: 70px;
+        
+    }
+    .f-cards{
+        position: relative;
+        left: -60px;
+    }
+    .portfolio-slider{
+        width: 500px;
+    height: 259px;
+    padding: 0.19px, 0px, 0.19px, 0px;
+    }
+    .swiper-slide{
+        width: 394.34px;
+    height: 398.61px;
+    top: 0.19px;
+    border-radius: 37.48px;
+    background: #17245B;
+    color: white;
+    
+    }
+
+    .swiper-slide div img{
+        width: 81.95px;
+    height: Hug (71.95px);
+    padding-top: 52.47px;
+    padding-left: 19.98px;
+    
+    }
+    .swiper-slide div h4{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 19.98px;
+    width: 342px;
+    height: 35px;
+    top: 150.66px;
+    left: 39.98px;
+    
+    }
+    .swiper-slide div p{
+        width: 153.59px;
+    height: 170px;
+    top: 193.88px;
+    padding-left: 19.98px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+    }
+    .f-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-top h2{
+        /* width: 747px; */
+        height: 47px;
+        font-size: 20px;
+    font-weight: 400;
+    }
+    .f-top img{
+        height: 20px;
+        padding-right: 2px;
+        cursor: pointer;
+    }
+}

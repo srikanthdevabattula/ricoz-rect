@@ -1,0 +1,38 @@
+.stories{
+    background: #14121e;
+}
+
+.stories h1{
+    color: white;
+    text-align: center;
+font-size: 36px;
+font-weight: 500;
+line-height: 55px;
+letter-spacing: 0em;
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+.s-down{
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.s-card{
+    width: 353px;
+height: 469px;
+/* padding: 65.77px, 33.39px, 77.41px, 40.24px; */
+padding: 40px;
+border-radius: 26.82px;
+background: white;
+margin-bottom: 20px;
+
+}
+.s-card h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.s-card p{
+    margin-bottom: 20px;
+}
